@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Contact</title>
+        
+        <style>
+            input {
+              width: 300px;
+              padding: 12px 20px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+            }
+
+            textarea {
+              resize: none;
+              width: 300px;
+              height: 100px;
+              padding: 12px 20px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+              font-family: helvetica;
+            }
+
+            ::placeholder {
+                font-family: helvetica;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="banner">
+            <div id="business-name">
+                sophia's indoor plants
+            </div>
+            
+            <div id="banner-links">
+                <a href="index.html">Home</a>
+                <a href="services.html">Shop</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        
+        <h1>Contact Us</h1>
+        <form>
+            <input type="text" name="name" required="1" placeholder="Your name"/>
+            <br />
+            <input type="text" name="email" required="1" placeholder="Your email"/>
+            <br />
+            <textarea placeholder="Your message" required="1"></textarea>
+            <!-- <input type="text" name="message" required="1" placeholder="Your message"/> -->
+            <br />
+            <input type="submit" value="Submit!"/>
+        </form>
+    </body>
+</html>

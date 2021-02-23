@@ -1,0 +1,47 @@
+h1 {
+    font-size: 40px;
+}
+
+body {
+    text-align: center;
+    font-family: Georgia, Times New Roman;
+    font-size: 20px;
+    margin: 0;
+    background-color: #d4d4d1;
+}
+
+.banner {
+    height: 120px;
+    width: 100%;
+    box-sizing: border-box;
+    /* position: sticky; */
+    display: inline-block;
+    top: 0;
+    /* background-color: #e4f2ed; */
+    padding: 20px 10px;
+}
+
+.banner a {
+  margin: 50px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+}
+
+.banner a:hover {
+  text-decoration: underline;
+}
+
+.banner a:active {
+  text-decoration: underline;
+}
+
+.banner a:visited {
+    color: black;
+}
+
+#business-name {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
